@@ -1,0 +1,47 @@
+Short-Duration Premium: Simple Subsample Checks
+
+                           Sample             Condition  Months   Start     End Low Dur High Dur D1-D10   SE t-stat Avg RF Avg HML Avg Mkt-RF
+      Full duration-return sample              Calendar     732 1964-07 2025-06    1.39     0.27   1.11 0.19   5.94   0.37    0.27       0.58
+Weber institutional-ownership era              Calendar     396 1981-07 2014-06    1.50     0.37   1.13 0.27   4.13   0.36    0.37       0.64
+                    Dotcom run-up              Calendar      57 1995-07 2000-03    1.80     2.11  -0.31 0.88  -0.35   0.41   -0.28       1.60
+                      Dotcom bust              Calendar      39 2000-04 2003-06    1.28    -1.45   2.72 1.79   1.52   0.27    1.72      -1.12
+                Full dotcom cycle              Calendar      96 1995-07 2003-06    1.59     0.66   0.92 0.90   1.02   0.35    0.53       0.49
+   Post-GFC, pre-post-2014 sample              Calendar      60 2009-07 2014-06    2.70     1.77   0.93 0.43   2.15   0.00    0.18       1.56
+     Post-2014 replication window              Calendar     132 2014-07 2025-06    0.82    -0.50   1.32 0.50   2.65   0.14   -0.19       0.96
+              Post-2014 pre-Covid              Calendar      66 2014-07 2019-12    0.15    -0.70   0.85 0.56   1.50   0.07   -0.38       0.89
+                Covid/ZLB rebound              Calendar      24 2020-01 2021-12    4.19     3.24   0.95 1.59   0.59   0.02   -0.56       1.95
+      Rate-hike and AI-boom years              Calendar      42 2022-01 2025-06   -0.05    -2.34   2.28 0.93   2.47   0.32    0.32       0.51
+   Full sample, lowest RF tercile RF <= 0.27% per month     249 1967-06 2022-10    1.79     0.81   0.98 0.34   2.90   0.08    0.09       0.73
+  Full sample, highest RF tercile RF >= 0.45% per month     245 1966-10 2024-08    0.64    -0.99   1.64 0.32   5.12   0.64    0.70       0.15
+  Full sample, growth beats value               HML < 0     339 1964-11 2025-06    1.07     2.20  -1.13 0.26  -4.41   0.34   -2.08       1.45
+  Full sample, value beats growth              HML >= 0     393 1964-07 2025-03    1.66    -1.39   3.05 0.23  13.42   0.39    2.30      -0.17
+    Post-2014, growth beats value               HML < 0      80 2014-07 2025-06   -0.09     0.22  -0.32 0.53  -0.61   0.13   -2.41       1.41
+    Post-2014, value beats growth              HML >= 0      52 2014-12 2025-03    2.23    -1.62   3.85 0.87   4.42   0.16    3.22       0.28
+
+Table 10 RIOR Companion: Post-2014 Subsamples
+
+                                Sample Condition  Months   Start     End Low RIOR D1-D5 High RIOR D1-D5 Interaction Interaction SE Interaction t-stat High Dur RIOR1-RIOR5 Avg RF Avg HML
+             Post-2014 Table 10 window  Calendar     120 2015-07 2025-06           0.56            0.36        0.20           0.55               0.37                -0.12   0.16   -0.12
+                   Post-2014 pre-Covid  Calendar      54 2015-07 2019-12           0.58           -0.94        1.52           0.51               2.95                -0.83   0.09   -0.27
+                     Covid/ZLB rebound  Calendar      24 2020-01 2021-12           0.45            2.52       -2.06           2.13              -0.97                 1.42   0.02   -0.56
+           Rate-hike and AI-boom years  Calendar      42 2022-01 2025-06           0.60            0.79       -0.19           0.73              -0.26                -0.07   0.32    0.32
+Post-2014 Table 10, growth beats value   HML < 0      70 2015-07 2025-06          -1.34           -1.90        0.56           0.69               0.81                 0.25   0.15   -2.55
+Post-2014 Table 10, value beats growth  HML >= 0      50 2015-08 2025-03           3.23            3.52       -0.29           0.92              -0.31                -0.63   0.16    3.27
+
+Notes:
+
+Returns are monthly percentages in the displayed table.
+
+Low Dur and High Dur are excess returns of duration deciles 1 and 10.
+
+D1-D10 is the low-minus-high duration spread; RF cancels in the spread.
+
+Standard errors and t-statistics are simple intercept-only time-series summaries.
+
+The condition rows are descriptive cuts, not causal tests.
+
+The Table 10 companion panel uses the local post-2014 RIOR portfolio returns only.
+
+Interaction is Low RIOR D1-D5 minus High RIOR D1-D5.
+
+High Dur RIOR1-RIOR5 is the RIOR spread inside the high-duration quintile.
