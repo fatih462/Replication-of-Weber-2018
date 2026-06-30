@@ -17,12 +17,6 @@ SEC 13F filings to do the institutional ownership analysis.
 - `data/`: local data directory. Large or licensed data files are not included
   in the repository.
 
-Run scripts from the repository root, for example:
-
-```bash
-python3 code/table5.py
-```
-
 ## Data Pipeline
 
 The replication starts from merged CRSP/Compustat extracts downloaded from WRDS.
